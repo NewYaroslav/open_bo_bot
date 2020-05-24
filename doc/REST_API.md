@@ -170,15 +170,15 @@
 	"subscription": {
 		"payout":{
 			"use":true,
-			"brokers":{
+			"brokers":[
 				"intrade.bar",
 				"binary.com"
-			},
-			"symbols":{
+			],
+			"symbols":[
 				"EURUSD",
 				"GBPAUD",
 				"BTCUSD"
-			},
+			],
 			"options":{
 				"amount":80
 			}
