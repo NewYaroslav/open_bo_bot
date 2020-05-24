@@ -1,0 +1,21 @@
+[submodule "lib/imgui"]
+	path = lib/imgui
+	url = https://github.com/ocornut/imgui.git
+[submodule "lib/imgui-sfml"]
+	path = lib/imgui-sfml
+	url = https://github.com/eliasdaler/imgui-sfml.git
+[submodule "lib/json"]
+	path = lib/json
+	url = https://github.com/nlohmann/json.git
+[submodule "lib/Simple-WebSocket-Server"]
+	path = lib/Simple-WebSocket-Server
+	url = https://gitlab.com/eidheim/Simple-WebSocket-Server.git
+[submodule "lib/fontaudio"]
+	path = lib/fontaudio
+	url = https://github.com/fefanto/fontaudio.git
+[submodule "lib/IconFontCppHeaders"]
+	path = lib/IconFontCppHeaders
+	url = https://github.com/juliettef/IconFontCppHeaders.git
+[submodule "lib/xtime_cpp"]
+	path = lib/xtime_cpp
+	url = https://github.com/NewYaroslav/xtime_cpp.git
