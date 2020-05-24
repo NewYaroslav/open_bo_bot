@@ -195,7 +195,7 @@
 		"payout":[
 			{
 				"broker":"intrade.bar",
-				"symbols":{
+				"symbols":[
 					{
 						"symbol":"EURUSD",
 						"payout":0.82
@@ -208,11 +208,11 @@
 						"symbol":"BTCUSD",
 						"payout":0.0
 					}
-				}
+				]
 			},
 			{
 				"broker":"binary.com",
-				"symbols":{
+				"symbols":[
 					{
 						"symbol":"EURUSD",
 						"payout":0.6
@@ -225,7 +225,7 @@
 						"symbol":"BTCUSD",
 						"payout":0.0
 					}
-				}
+				]
 			}
 		]
 	}
