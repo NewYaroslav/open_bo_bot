@@ -160,3 +160,75 @@
 	}
 }
 ```
+
+## Проценты выплат
+
+Чтобы получать проценты выпллат, сначала необходимо подписаться:
+
+```json
+{
+	"subscription": {
+		"payout":{
+			"use":true,
+			"brokers":{
+				"intrade.bar",
+				"binary.com"
+			},
+			"symbols":{
+				"EURUSD",
+				"GBPAUD",
+				"BTCUSD"
+			},
+			"options":{
+				"amount":80
+			}
+		}
+	}
+}
+```
+
+Далее можно будет получать проценты выплат брокеров каждый раз, когда процент выплат меняется, а также в первый раз после подписки:
+
+```json
+{
+	"subscription": {
+		"payout":[
+			{
+				"broker":"intrade.bar",
+				"symbols":{
+					{
+						"symbol":"EURUSD",
+						"payout":0.82
+					},
+					{
+						"symbol":"GBPAUD",
+						"payout":0.82
+					},
+					{
+						"symbol":"BTCUSD",
+						"payout":0.0
+					}
+				}
+			},
+			{
+				"broker":"binary.com",
+				"symbols":{
+					{
+						"symbol":"EURUSD",
+						"payout":0.6
+					},
+					{
+						"symbol":"GBPAUD",
+						"payout":0.72
+					},
+					{
+						"symbol":"BTCUSD",
+						"payout":0.0
+					}
+				}
+			}
+		]
+	}
+}
+```
+
