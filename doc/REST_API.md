@@ -33,7 +33,7 @@
 	"symbol":"EURUSD",		
 	"duration":180,				
 	"direction":"SELL",		 
-	"payout_limit"0.78,				
+	"payout_limit":0.78,				
 	"id":567,					
 	"winrate":0.6,					
 	"kelly_attenuation":0.2,		
